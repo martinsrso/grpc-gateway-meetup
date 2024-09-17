@@ -1,0 +1,13 @@
+version: v2
+modules:
+  - path: .
+deps:
+  - buf.build/googleapis/googleapis
+
+lint:
+  use:
+    - STANDARD
+# Default breaking configuration. It behaves the same as the default lint configuration.
+breaking:
+  use:
+    - FILE
